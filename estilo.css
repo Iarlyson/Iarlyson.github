@@ -1,0 +1,362 @@
+body{
+  margin: 0;
+  background-image: url(PrestesFundo.jpg);
+  background-size: cover; 
+  background-attachment: fixed;
+}
+header{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+}
+a{
+text-decoration:none;
+color: red;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+li{
+    padding: 5px;
+    background: black;
+    margin: 5px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+li h3{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+.centro{
+  display: flex;
+  flex-direction: row;
+}
+
+.centro > nav{
+  flex: 2;
+  align-content: center;
+  }
+
+.menu1{
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    justify-content: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+    list-style: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 20px;
+    color: white;
+}
+
+.menu2{
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  justify-content: left;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; 
+  list-style: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 20px;
+}
+.menu2 > video{
+  max-width: 100%;
+  height: auto;
+}
+
+.menu3{
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  justify-content: left;
+  flex-grow: 1;
+  
+  list-style: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 20px;
+  
+}
+
+.menu div{
+  display: flex;
+  flex-direction: row;
+}
+#imgrede{
+  width: 70px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 2px;
+}
+#imgrede p{
+  text-align: center;
+}
+
+
+.centro > .container-post{
+    flex: 5;
+    border-radius: 15px;
+}
+.centro > h3{
+  text-align: center;
+}
+
+/* post */
+article img{
+width: 800px;
+max-width: 100%;
+height: auto;
+}
+
+.container-post{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.post {
+font-family: 'Anton', sans-serif;
+background-color: rgba(255, 255, 255, 0.5);
+margin-bottom: 10px;
+border-radius: 10px;
+padding: 20px;
+text-align: justify;
+}
+
+.post > a{
+  color: blue;
+}
+
+figcaption{
+  text-align: center;
+}
+
+
+h1{ 
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.p-img{
+  text-align: center;
+}
+
+/* Menu expansivo */
+element {
+  width: 100px;
+  height: 60px;
+}
+
+.pagina{
+    font-family: 'Anton', sans-serif;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: center;
+  flex-grow: 20;
+  display: flex;
+  flex-direction: row; 
+  list-style: none;
+  
+}
+.pagina > a {
+    text-decoration: none;
+  }
+  
+  .pagina {
+    background:  rgba(255, 255, 255, 0.2);
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  .pagina li {
+    max-width: 80%;
+height: auto;
+      color: #fff;
+    background:black;
+      display: block;
+      float: left;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+  }
+ 
+  .pagina li a {
+   
+    color: #fff;
+    }
+  
+  .pagina li:hover {
+    
+      background: red;
+      cursor: pointer;
+  }
+  
+  .pagina li ul {
+      background: black;
+      visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+      position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+      left: 0;
+    display: none;
+    border-radius: 10px;
+    padding: 0;
+     
+  }
+  .pagina li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+justify-self: center;
+
+  }
+  
+  .pagina li ul li {
+      clear: both;
+      padding-left: 5px;
+      padding-right: 40px;
+      text-align: center;
+      font-size: 90%;
+      width: 52px;
+      
+  }
+
+
+  .centro > aside{
+    max-width: 100%;
+    flex: 2;
+  }
+  footer{
+    text-align: center;
+    color: white;
+    padding: 5px;
+     background: black;
+     font-family: 'Anton', sans-serif;
+    }
+  
+  #redesocial{
+    
+   display: flex;
+flex-direction: row;
+justify-content: space-around;
+  }
+  #redesocial a{
+text-align: center;
+  }
+#videodestaque{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+/*ipod */
+@media (max-width: 768px) {
+  .pagina {
+   flex-direction: column;
+ }
+.pagina li {
+     max-width: 100%;
+   }
+ .pagina li:hover > ul,
+ ul li ul:hover{
+   display: none;
+   justify-content: center;
+}
+.centro{
+flex-direction: column;
+}
+.menu2 {
+   display: none;
+}
+
+aside{
+   order: 1;
+padding: 15px;
+}
+
+.container-post{
+padding: 5px;
+order: 2;
+}
+
+.post{
+padding: 5px;
+
+}
+nav{
+order: 3;
+ }
+}
+ 
+/* Iphone*/
+@media (max-width: 375px) {
+   .pagina {
+    flex-direction: column;
+  }
+
+    .pagina li {
+      max-width: 100%;
+    }
+  .pagina li:hover > ul,
+  ul li ul:hover{
+    display: none;
+    justify-content: center;
+  }
+.centro{
+flex-direction: column;
+}
+  .menu2 {
+    display: none;
+  }
+  aside{
+    order: 1;
+padding: 15px;
+  }
+ .container-post{
+  padding: 5px;
+   order: 2;
+ }
+ .post{
+  padding: 5px;
+
+ }
+  nav{
+    order: 3;
+  }
+}
+  
+
+
+
+
+
+
+ 
